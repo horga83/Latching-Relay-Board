@@ -1,7 +1,7 @@
 # Latching-Relay-Board
 Latching ESP32 relay board with analog and inputs
 
-This ia a 16 point Latching relay board by VE7FRG.  
+This is a 16 point Latching relay board by VE7FRG.  
 This board was designed for solar powered, mountain top, radio repeater
 sites but is certainly not limited to that use.
 
