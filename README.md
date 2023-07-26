@@ -7,8 +7,8 @@ sites but is certainly not limited to that use.
 
 Features
 --------
-16 latching relays each one with a single usable contact rated at 2A.  
-   7 of the 16 relays are in parallel with sink outputs of a repeater controller  
+16 latching relays each one with a single usable contact rated at 2A, 7 of the 16 relays are in parallel with 
+sink outputs of a repeater controller  
    such as a RLC-4 or RLC-6.  
 4  Inputs for door switch alarms or other uses.  
 4  Analog I/O points available by including optional ADS1115 board.  
