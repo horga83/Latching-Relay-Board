@@ -1,15 +1,21 @@
 # Latching-Relay-Board
-Latching ESP32 relay board with analog and inputs
+ESP32 based latching relay board with digital inputs and optional 16 bit analog inputs.
 
-This is a 16 point Latching relay board by me, VE7FRG.  
 This board was designed for solar powered, mountain top, radio repeater
-sites but is certainly not limited to that use.  <br/><br/>
+sites, but is certainly not  
+limited to that use.  <br/><br/>
+Most relay boards use standard relays that are energised continuously when they are closed and  
+use anywhere in the range of 30 to 100mA or more. With 10 relays taking say 40mA, on all the time,  
+plus the board electronics, you are looking at approximately .5A continuous current draw 24/7.  
+On a solar powered site this may be too much.
+  
+In addition, with standard relays, if the power is removed the relays will all drop out removing power from  
+equipment you may not want to go down.  A latching relay board solves these issues with no current  
+being drawn by coils and static state on power cycle.
 
 Ordering
 --------
 Bare and pre-built boards may be ordered from me, please email \<farrisg at gmsys.com\><br/><br/>
-![relay_board-800](https://github.com/horga83/Latching-Relay-Board/assets/2425304/6049794b-617f-4010-b2ef-43ba544a5afc)
-![bare_board-800](https://github.com/horga83/Latching-Relay-Board/assets/2425304/fcb2d0c8-da5b-42c9-9c24-75382f7059b7)
 
 Features
 --------
@@ -56,3 +62,5 @@ board accepts.
 |         |                                               |
 
 
+![relay_board-800](https://github.com/horga83/Latching-Relay-Board/assets/2425304/6049794b-617f-4010-b2ef-43ba544a5afc)
+![bare_board-800](https://github.com/horga83/Latching-Relay-Board/assets/2425304/fcb2d0c8-da5b-42c9-9c24-75382f7059b7)
