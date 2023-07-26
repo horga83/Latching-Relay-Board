@@ -3,7 +3,11 @@ Latching ESP32 relay board with analog and inputs
 
 This is a 16 point Latching relay board by me, VE7FRG.  
 This board was designed for solar powered, mountain top, radio repeater
-sites but is certainly not limited to that use.  <br />
+sites but is certainly not limited to that use.  <br/><br/>
+
+Ordering
+--------
+Bare and pre-built boards may be ordered from me, please email farrisg at gmsys.com<br/><br/>
 ![relay_board-800](https://github.com/horga83/Latching-Relay-Board/assets/2425304/6049794b-617f-4010-b2ef-43ba544a5afc)
 ![bare_board-800](https://github.com/horga83/Latching-Relay-Board/assets/2425304/fcb2d0c8-da5b-42c9-9c24-75382f7059b7)
 
