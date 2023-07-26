@@ -15,15 +15,18 @@ Features
 * 4  Analog I/O points available by including optional ADS1115 board.  
 * Remaining pins on ESP32 brought out to header for use.  
 * I2C bus brought out to terminal blocks.  
-* Operates on 12VDC  
-* Communication is by WIFI  
-  
-The table below outlines the ascii command sequences the
-board accepts. 
+* Operates on 12VDC at approx 60mA.
+* Communication is by WIFI.  
 
-+---------------------------------------------------------+
+Commands
+--------
+The table below outlines the ascii command sequences the
+board accepts.  
+
+**Note:** All commands must be terminated with a '\n' character.   
+
 | Command | Description                                   | 
-+---------+-----------------------------------------------+
+|:--------|:----------------------------------------------|
 | ST      | Get status (returns status of all 16 relays)  |
 |         | See note below about status                   |
 | RCnn    | Close relay nn - example RC00 or RC12         |
@@ -39,9 +42,9 @@ board accepts.
 | A3      | Get Analog A3 value                           |
 |         |                                               |
 | I1      | Get input I1 state - GPIO33                   |
-| I2      | Get input I0 state - GPIO32                   |
+| I2      | Get input I2 state - GPIO32                   |
 | I3      | Get input I3 state - GPIO35                   |
 | I4      | Get input I4 state - GPIO34                   |
-|_________|______________________________________________ |
-| Note: All commands must be terminated with a '\n' char  |
-+---------------------------------------------------------+
+|         |                                               |
+
+
