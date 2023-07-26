@@ -1,7 +1,7 @@
 # Latching-Relay-Board
 Latching ESP32 relay board with analog and inputs
 
-This is a 16 point Latching relay board by VE7FRG.  
+This is a 16 point Latching relay board by me, VE7FRG.  
 This board was designed for solar powered, mountain top, radio repeater
 sites but is certainly not limited to that use.  
 ![relay_board-800](https://github.com/horga83/Latching-Relay-Board/assets/2425304/6049794b-617f-4010-b2ef-43ba544a5afc)
@@ -9,15 +9,14 @@ sites but is certainly not limited to that use.
 
 Features
 --------
-16 latching relays each one with a single usable contact rated at 2A, 7 of the 16 relays are in parallel with 
-sink outputs of a repeater controller  
-   such as a RLC-4 or RLC-6.  
-4  Inputs for door switch alarms or other uses.  
-4  Analog I/O points available by including optional ADS1115 board.  
-Remaining pins on ESP32 brought out to header for use.  
-I2C bus brought out to terminal blocks.  
-Operates on 12VDC  
-Communication is by WIFI  
+*16 latching relays each one with a single usable contact rated at 2A.
+*7 of the 16 relays are in parallel with sink outputs of a repeater controller such as RLC-4.  
+*4 Inputs for door switch alarms or other uses.  
+*4  Analog I/O points available by including optional ADS1115 board.  
+*Remaining pins on ESP32 brought out to header for use.  
+*I2C bus brought out to terminal blocks.  
+*Operates on 12VDC  
+*Communication is by WIFI  
   
 The table below outlines the ascii command sequences the
 board accepts. 
