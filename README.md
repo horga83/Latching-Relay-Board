@@ -18,6 +18,7 @@ Ordering
 Bare and pre-built boards may be ordered from me, please email \<**farrisg at gmsys.com**\><br/>  
 Bare boards are US $29.00 plus shipping.  
 Currently Pre-built board prices are available on a quote basis, due to component prices.  
+The pre-built board may be ordered with 8 relays to save on cost.  
 36pin ESP32 modules are available with the bare board as an option.  
 
 Features
