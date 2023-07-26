@@ -23,6 +23,7 @@ Features
 * I2C bus brought out to terminal blocks.  
 * Operates on 12VDC at approx 60mA.
 * Communication is by WIFI.
+* Python test and "relay" application.
  
 
 Commands
