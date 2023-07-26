@@ -1,4 +1,4 @@
-# Latching-Relay-Board
+# WIFI Latching-Relay-Board
 ESP32 based latching relay board with digital inputs and optional 16 bit analog inputs.
 
 This board was designed for solar powered, mountain top, radio repeater
@@ -11,15 +11,18 @@ On a solar powered site this may be too much.
   
 In addition, with standard relays, if the power is removed the relays will all drop out removing power from  
 equipment you may not want to go down.  A latching relay board solves these issues with no current  
-being drawn by coils and static state on power cycle.
+being drawn by coils and static state contacts on power cycle.
 
 Ordering
 --------
-Bare and pre-built boards may be ordered from me, please email \<farrisg at gmsys.com\><br/><br/>
+Bare and pre-built boards may be ordered from me, please email \<**farrisg at gmsys.com**\><br/>  
+Bare boards are US $29.00 plus shipping.  
+Currently Pre-built board prices are available on a quote basis, due to component prices.  
+36pin ESP32 modules are available with the bare board as an option.  
 
 Features
 --------
-* ESP32 microcontroller with watchdog code.
+* 36pin ESP32 (doit dev v1) microcontroller with watchdog code.
 * 16 latching relays each one with a single usable contact rated at 2A.
 * 7 of the 16 relays are in parallel with sink outputs of a repeater controller such as RLC-4.  
 * Low current indicator LEDS for all relays.
