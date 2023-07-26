@@ -13,14 +13,17 @@ Bare and pre-built boards may be ordered from me, please email farrisg at gmsys.
 
 Features
 --------
+* ESP32 microcontroller with watchdog code.
 * 16 latching relays each one with a single usable contact rated at 2A.
 * 7 of the 16 relays are in parallel with sink outputs of a repeater controller such as RLC-4.  
+* Low current indicator LEDS for all relays.
 * 4 Inputs for door switch alarms or other uses.  
 * 4  Analog I/O points available by including optional ADS1115 board.  
 * Remaining pins on ESP32 brought out to header for use.  
 * I2C bus brought out to terminal blocks.  
 * Operates on 12VDC at approx 60mA.
-* Communication is by WIFI.  
+* Communication is by WIFI.
+ 
 
 Commands
 --------
